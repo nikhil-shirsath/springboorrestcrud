@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 
 
 @RestController
-@RequestMapping("/students")
+@RequestMapping("/api")
 public class StudentController {
 	@Autowired
 	private StudentService sservice;
